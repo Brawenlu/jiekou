@@ -6,7 +6,15 @@
 # @Software: PyCharm
 import PythonMagick
 import os
-二道湾群奥二
+path =  os.getcwd() #返回当前工作目录的路径
+filename = input("输入转换的完整图片名\n")
+filepath = path + '\\'+ filename
+img = PythonMagick.Image(filepath)
+img.sample('128x128')#设置图片格式
+newpath = path + '//ico.ico'
+img.write(newpath)
+
+
 
 
 
