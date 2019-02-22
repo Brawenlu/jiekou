@@ -1,16 +1,24 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2019/2/20 14:52
+# @Author  : Brawenlu
+# @File    : Jd.py
+# @Software: PyCharm
+
 import requests,time,logging
 from bs4 import BeautifulSoup
 import pandas as pd
 import wx
 import Gui
-
-
+import sys
+reload(sys)
+sys.setdefaultencoding('gbk')
 
 
 class Tiebawindow(Gui.MyFrame1):
     def init_main_window(self):
         logger = logging.getLogger()  # logging对象
-        fh = logging.FileHandler("log.txt")  # 文件对象
+        fh = logging.FileHandler("log.txt", encoding='utf-8')  # 文件对象
         sh = logging.StreamHandler()  # 输出流对象
         fm = logging.Formatter('%(asctime)s-%(filename)s[line%(lineno)d]-%(levelname)s-%(message)s')  # 格式化对象
         fh.setFormatter(fm)  # 设置格式
@@ -38,12 +46,12 @@ class Tiebawindow(Gui.MyFrame1):
             global tiebaanme
             template_url = "https://tieba.baidu.com/f?kw={}&ie=utf-8&pn={}"
             for i in range(n):
-                logging.info('正在爬取第{}页'.format(i + 1))
+                logging.info(u'正在爬取第{}页'.format(i + 1))
                 target_url = template_url.format(self.m_textCtrl1.GetValue(), 50 * i)
                 try:
                     res = requests.get(target_url)
                 except:
-                    logging.error('请求失败,请检查网络连接!')
+                    logging.error(u'请求失败,请检查网络连接!')
                     self.m_textCtrl4.AppendText('请求失败,请检查网络连接!\n')
                 soup = BeautifulSoup(res.text, 'html.parser')
                 page_list = soup.find_all(class_='j_thread_list')

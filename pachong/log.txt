@@ -1,0 +1,87 @@
+2019-02-22 16:41:16,252-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 16:41:16,257-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:41:18,494-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:42:30,338-Tieba.py[line44]-INFO-正在爬取第1页
+2019-02-22 16:42:30,348-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:42:32,529-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:43:50,243-Tieba.py[line44]-INFO-正在爬取第1页
+2019-02-22 16:43:50,250-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:43:52,507-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:44:49,826-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 16:44:49,835-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:44:51,986-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:46:30,180-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 16:46:30,187-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:46:32,437-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:48:38,618-Tieba.py[line46]-INFO-正在爬取第1页
+2019-02-22 16:48:38,625-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:48:40,838-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:49:16,530-Tieba.py[line46]-INFO-正在爬取第1页
+2019-02-22 16:49:16,539-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:49:18,809-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:49:31,842-Tieba.py[line46]-INFO-正在爬取第1页
+2019-02-22 16:49:31,848-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:49:33,977-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:49:48,035-Tieba.py[line46]-INFO-正在爬取第1页
+2019-02-22 16:49:48,042-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:49:50,161-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:49:50,832-Tieba.py[line46]-INFO-正在爬取第2页
+2019-02-22 16:49:50,832-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:49:51,825-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=50 HTTP/1.1" 200 None
+2019-02-22 16:49:52,513-Tieba.py[line46]-INFO-正在爬取第3页
+2019-02-22 16:49:52,516-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:49:53,571-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=100 HTTP/1.1" 200 None
+2019-02-22 16:51:15,052-Tieba.py[line46]-INFO-正在爬取第1页
+2019-02-22 16:51:15,059-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:51:17,338-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:55:31,315-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 16:55:31,322-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:55:33,388-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=213&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:56:27,154-Tieba.py[line47]-INFO-正在爬取第1页
+2019-02-22 16:56:40,010-Tieba.py[line47]-INFO-正在爬取第1页
+2019-02-22 16:56:40,019-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:56:42,144-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:57:04,091-Tieba.py[line47]-INFO-正在爬取第1页
+2019-02-22 16:57:04,098-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:57:06,362-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 16:57:42,466-Tieba.py[line47]-INFO-正在爬取第1页
+2019-02-22 16:57:42,473-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 16:57:44,697-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 17:00:13,594-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 17:00:13,601-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:00:15,865-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 17:00:54,338-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 17:00:54,345-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:00:56,802-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 17:01:46,437-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 17:01:46,444-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:01:48,608-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 17:03:05,082-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 17:03:05,095-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:03:07,355-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 17:03:47,194-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 17:03:47,200-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:03:49,369-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 17:03:50,063-Tieba.py[line45]-INFO-正在爬取第2页
+2019-02-22 17:03:50,065-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:03:51,049-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=50 HTTP/1.1" 200 None
+2019-02-22 17:03:51,707-Tieba.py[line45]-INFO-正在爬取第3页
+2019-02-22 17:03:51,709-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:03:52,812-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=100 HTTP/1.1" 200 None
+2019-02-22 17:06:08,161-Tieba.py[line45]-INFO-正在爬取第1页
+2019-02-22 17:06:08,168-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:06:10,453-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 17:06:11,130-Tieba.py[line45]-INFO-正在爬取第2页
+2019-02-22 17:06:11,131-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:06:12,171-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=50 HTTP/1.1" 200 None
+2019-02-22 17:06:12,904-Tieba.py[line45]-INFO-正在爬取第3页
+2019-02-22 17:06:12,907-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:06:13,871-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=100 HTTP/1.1" 200 None
+2019-02-22 17:32:04,743-Tieba.py[line48]-INFO-正在爬取第1页
+2019-02-22 17:32:04,752-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:32:06,904-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 17:33:17,862-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:33:20,062-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
+2019-02-22 17:34:23,967-Tieba.py[line49]-INFO-正在爬取第1页
+2019-02-22 17:34:23,976-connectionpool.py[line813]-DEBUG-Starting new HTTPS connection (1): tieba.baidu.com:443
+2019-02-22 17:34:26,048-connectionpool.py[line393]-DEBUG-https://tieba.baidu.com:443 "GET /f?kw=DNF&ie=utf-8&pn=0 HTTP/1.1" 200 None
