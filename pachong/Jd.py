@@ -18,30 +18,8 @@ etree = lxml.html.etree
 class Jdprice(object):
     def __init__(self):
         self.host = 'https://msitepp-fm.jd.com'
-        self.header={'user-agent':'jdapp;iPhone;7.3.6;12.1.2;5123eb25ec6f51da6cd30ebd9ed0fa3c7e6746a2;network/wifi;ADID/19884735-635B-4056-B10F-745E89C334DE;supportApplePay/3;hasUPPay/0;pushNoticeIsOpen/0;model/iPhone8,1;addressid/643744556;hasOCPay/0;appBuild/164946;supportBestPay/0;pv/240.15;pap/JA2015_311210|7.3.6|IOS 12.1.2;apprpd/MyJD_Main;psn/5123eb25ec6f51da6cd30ebd9ed0fa3c7e6746a2|539;usc/toutiao_video;jdv/0|toutiao_video|t_1000067282_318559470_3942|adrealizable|_2_app_0_50c720ad67d74a63a15fca5f96fb427d-p_3942|1544611321;umd/adrealizable;psq/1;ucp/t_1000067282_318559470_3942;app_device/IOS;adk/;ref/MyJdMTAManager;utr/_2_app_0_50c720ad67d74a63a15fca5f96fb427d-p_3942;ads/;Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16C101;supportJDSHWK/1'}
-        self.cookie={'__jda':'206979520.15193562587261973407271.1519356258.1550629087.1550634338.162',
-                     '__jdb':'206979520.2.15193562587261973407271|162.1550634338',
-                     '__jdc':'206979520',
-                     '__jdv':'206979520|toutiao_video|t_1000067282_318559470_3942|adrealizable|_2_app_0_50c720ad67d74a63a15fca5f96fb427d-p_3942|1544611321000',
-                     'mba_muid':'15193562587261973407271.240.1550634343390',
-                     'mba_sid':'240.17',
-                     'pre_seq':'1',
-                     'pre_session':'5123eb25ec6f51da6cd30ebd9ed0fa3c7e6746a2|539',
-                     'priceProPin':'ZYGWXO2N45EKUC2JOYM52TBTNE',
-                     'pt_key':'app_openAAFcbLjeADDkDsR0lQXe-ClVhOzu6v1E2gNyv-9CB2v-aMSz7kEs1CqAzkMFxeh7EAOWSY6_2_0',
-                     'pt_pin':'%E5%BF%83%E5%8F%AA%E4%B8%BA%E5%8D%9A',
-                     'pwdt_id':'%E5%BF%83%E5%8F%AA%E4%B8%BA%E5%8D%9A',
-                     'sid':'d729db2caa3d71df7b57b7c9174c476w',
-                     'unpl':'ADC_7H5VQQVKoCs%2FK8Uw27Df5zyD7cGqF01MWU2pDaJZiojg7q709z0o8j%2BmosJWxkMfJCr4jILk5YdMhzEzL2Xp4fh7OmsYUxTEAgoGkSALyf%2Ft96bf45GEyKVDBvtO6ai%2Bjp0GFe0TIJlyDZrNesMTCZkHDi5UzoTkyGA4G30yc1c%3D%7CADC_lOm9QSd2ubL6Cb8txCG8JvvOczieO%2BFI5K1A%2BoQIcjlEwG0bpR6Y7vwWbPU3ld1t0NPhOMogWSrNyiZnK0%2BLurNTJOJlnvDymw8eFKqO%2BsrN2vWiWeFtV7SjFZGsig5svUurGwkeJc45w%2FrRLO8G6DwvUdnZiR1LrV1%2F05et4twW77YDmxrRufL63j1fhUXUZH6mM8e4Qq3STDvnDhIH1mQ3FCXjgfc7goz%2FYtyKvP%2F8UvHT4A%2F1AlCqmQuBzBeXWcQaPVH2KpmrWf5cKPLWEnPOU9dMgy%2BMMKPKI1RGrsxI6fLOsVw0tpgsgcMjknaDU3yFIfhhfjZywSLnuo2R%2BW53GSNbrhqrApkjpYN%2BeMDMJbjVshr9RW3zofUDqZpgR6xTwgRlCYrukd5k1VcIrxYgZECv4ekaDee0GAvOOHASqJaA%2Bo8XOPM7T%2BJI%2Bs1Poi5FgNHuY9fxKHKb3Kot9Mm6GlbzZdZtjKaTqLv3DYQOXI4vLkyoaOsNyTjvJpC7Mcshb7N9Rm4J%2FdTeC953Rd%2B6%2Bn7ER%2BRZpdihEWmC8hc8d8MDn%2BFoKKFF3RUPtjy%2BQ%2Fv%2FDGdahZcOmMG0uJeaqwpuS15LKO59G7EwSRm11ge6JEs4uw3geOKxDGY%2Bp4P68tZhG%2BI%2FQJZDhcTApZpI2Q%3D%3D',
-                     'shshshfp':'c4b859998ff9d3bd6a72c552169fc199',
-                     'shshshfpb':'15129ec12414d45df9556cc9774f71d133e286f13285539825aecfb037',
-                     '__wga':'1540703164135.1540703164135.1540703164135.1540703164135.1.1',
-                     'shshshfpa':'9ec80a26-3a30-04e4-e86f-d6db8fe6e240-1540703164',
-                     'webp':'0',
-                     'cartNum':'0',
-                     'visitkey':'28669990573261742',
-                     'wq_addr':'643744556%7C18_1482_48938_52586%7C%u6E56%u5357_%u957F%u6C99%u5E02_%u5F00%u798F%u533A_%u57CE%u533A%7C%u6E56%u5357%u957F%u6C99%u5E02%u5F00%u798F%u533A%u57CE%u533A%u8F66%u7AD9%u5317%u8DEF609%u53F7%u9644%u8FD1%u56DB%u65B9%u576A%u7EA2%u5546%u5EFA%u6750%u5E02%u573AD1%u680B202%7C113.00705%2C28.2366',
-                     }
+        self.header={}
+        self.cookie={}
         self.n=0
         # 创建一个logger
         self.logger = logging.getLogger('mylogger')
